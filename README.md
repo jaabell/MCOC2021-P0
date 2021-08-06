@@ -1,3 +1,41 @@
+#Entrega 2 (preguntas):
+
+
+
+
+![Figure 2021-08-05 203342](https://user-images.githubusercontent.com/62267612/128441956-ece48267-172a-4725-89dc-667d455045b5.png)
+
+
+¿Cómo difiere del gráfico del profesor/ayudante?
+
+Difiere con respecto al inicio del procedimiento de python lo cual se puede dar debido a que mi procesador puede que sea de una velocidad mas baja por lo cual tiene menos procesadores para dedicarle a este proceso
+
+
+¿A qué se pueden deber las diferencias en cada corrida?
+
+a los distintos procesos que en si el computador esta haciendo entre si , pueden haber mil factores , desde el apretar una tecla , ocupar otras funciones o hasta incluso un correo o algun mensaje de alguna aplicación, depende de la cantidad de procesos que este ejecutando el computador en el instante en que ejecuta el programa.
+
+El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser?
+
+debido a que el proceso que hace siempre tiene un punto de inicio y uno de fin , por ende siempre llegara donde mismo gastando la misma capacidad de memoria siempre , el tiempo varia dependiendo del camino que se tome y de los procesos que esta ejecutando la maquina.Se demorara mucho mas tiempo si se esta jugando por ejemplo a que si el compputador esta solo ejecutando la accion especifica.
+
+¿Qué versión de python está usando?
+3.8.8 (default, Apr 13 2021, 15:08:03) [MSC v.1916 64 bit (AMD64)]
+
+¿Qué versión de numpy está usando?
+
+1.20.1
+
+Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen (screenshot) de su uso de procesador durante alguna corrida para confirmar. 
+
+
+
+
+
+
+
+
+
 # MCOC2021-P0
 
 # Mi computador principal
