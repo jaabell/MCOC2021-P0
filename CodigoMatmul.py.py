@@ -4,7 +4,7 @@ from numpy import zeros, float16, float32, float64
 import matplotlib.pylab as plt 
 
 
-ListNs=[10]
+ListNs=[10,20,50,100,200,500,1000,2000,5000,10000,20000]
 ListDts=[]
 ListUsoMemoria=[]
 
