@@ -27,6 +27,9 @@ debido a que el proceso que hace siempre tiene un punto de inicio y uno de fin ,
 1.20.1
 
 Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen (screenshot) de su uso de procesador durante alguna corrida para confirmar. 
+si:
+![image](https://user-images.githubusercontent.com/62267612/128537666-a5fbc2e1-2da6-43cb-a04b-6a200cde6cdc.png)
+
 
 
 
