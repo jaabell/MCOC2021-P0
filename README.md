@@ -57,6 +57,12 @@ PREGUNTAS:
 
 ¿Qué algoritmo de inversión cree que utiliza cada método (ver wiki)? Justifique claramente su respuesta. 
 
+#half 1 byte
+#single 2 bytes
+#double 4 bytes
+#long double 8 bytes
+
+
 
 ¿Como incide el paralelismo y la estructura de caché de su procesador en el desempeño en cada caso?
 
