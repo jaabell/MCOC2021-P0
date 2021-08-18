@@ -1,3 +1,74 @@
+#Entrega 3
+
+Memeoria y eficiencia cada caso :
+
+Procedimiento con numpy.linalg 
+
+caso 1 (half) :
+ ![image](https://user-images.githubusercontent.com/62267612/129962945-e38c4d1e-2492-498d-a72b-f7ef10b3b2b7.png)
+
+
+
+
+caso 2 (single ) :
+
+
+![caso2](https://user-images.githubusercontent.com/62267612/129965084-346cf44d-f50a-40c0-b417-7679cd1a1164.png)
+
+
+caso 3 (double ) :![caso3](https://user-images.githubusercontent.com/62267612/129965118-78171aca-6122-4d1f-b18b-9dec57bf7f25.png)
+
+
+caso 4 (longdouble ) :
+![image](https://user-images.githubusercontent.com/62267612/129963235-15a9e58d-7bc8-4545-9f03-5324da2d4c1b.png)
+
+ 
+
+Procedimiento con scipy.linalg (overwrite_a=False)
+
+
+caso 5 (half) :![caso5](https://user-images.githubusercontent.com/62267612/129965147-f1bbcac0-4751-4bc2-b10c-400bdc30da2b.png)
+
+
+caso 6 (single ) :![caso6](https://user-images.githubusercontent.com/62267612/129965208-7bd8790e-b6f5-457e-ac98-490e308b5399.png)
+
+caso 7 (double ) :![caso7](https://user-images.githubusercontent.com/62267612/129965224-2b0d8afd-9df1-40da-b804-cf7c8523a6b2.png)
+
+
+caso 8 (longdouble):![caso8](https://user-images.githubusercontent.com/62267612/129965262-a78bc7d7-3303-427e-aa10-1d04c733d4ee.png)
+
+
+Procedimiento con scipy.linalg (overwrite_a=True)
+
+
+caso 9(half) :![caso9](https://user-images.githubusercontent.com/62267612/129965269-a8423fca-ee7d-448b-8293-48921c49de09.png)
+
+
+
+caso 10 (single ) :![caso10](https://user-images.githubusercontent.com/62267612/129965280-b0a23cf6-ff48-4450-a206-7bcdd219ba3e.png)
+
+caso 11 (double ) :![caso11](https://user-images.githubusercontent.com/62267612/129965287-57eb53f4-d33e-412c-bd99-0f3f46216150.png)
+
+
+caso 12 (longdouble):![caso12](https://user-images.githubusercontent.com/62267612/129965339-e25240f0-9dd9-4463-8c50-da831753deb6.png)
+
+
+PREGUNTAS:
+
+¿Qué algoritmo de inversión cree que utiliza cada método (ver wiki)? Justifique claramente su respuesta. 
+
+
+¿Como incide el paralelismo y la estructura de caché de su procesador en el desempeño en cada caso?
+
+incide en el aspecto en que se ejecutara el programa, este implica que los procesadores funcionen simultaneamente al mismo tiempo lo que hace que resuelva varios calculos grandes de manera simultanea para que se acelere el proceso.
+
+A continuacion se puede apreciar que al funcionar el programa con las 10 corridas seguidas el procesador esta funcionando al maximo de su capacidad y como se puede apreciar en la imagen esta realizando mas de 270 procesos los cuales los esta realizando mediante el paralelismo y capacidad del computador al mismo tiempo.
+
+![image](https://user-images.githubusercontent.com/62267612/129967345-7b1a762b-4ae2-4f51-8bbf-1b3c3a005488.png)
+
+
+
+
 #Entrega 2 (preguntas):
 
 
