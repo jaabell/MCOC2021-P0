@@ -1,3 +1,74 @@
+Entrega 4
+
+Comentario: La variabilidad del tiempo es bastante similar entre procedimientos con el mismo método de ejecución, el cual cambia considerablemente cuando pasamos de ocupar solve a o utilizar eight debido a que con este ultimo al momento de utilizar una matriz grande (N=10000) toma un tiempo considerablemente mayor al que se logra resolviéndolo con la línea de comando SOlVE. Con respecto al algoritmo que gana en promedio se puede decir que es mucho más eficiente la línea de comando SOLVE debido a que esta para el máximo tamaño que se utilizo de matriz (N=10000) toma un tiempo promedio de ejecución que ronda entre los 20 a 30 segundos, lo cual se aleja mucho de los tiempos dados para este mismo tamaño de matriz para la línea de comando eight ya que esta misma para los mismos tamaños de matriz utilizados esta rondando en un tiempo promedio entre 105 y 120 segundos. El tiempo que se demora la ejecución se puede apreciar que dependerá del tamaño de la matriz que se quiera ejecutar , entre mas grande la matriz mas tiempo se demorara y como se puede apreciar en los gráficos esta razón no es lineal y después del tamaño de matriz 5000 cualquier proceso independiente del método que se utilice se demorara mucho mas que si se calcularan matrices de tamaño 500 hacia abajo Con respecto a esta superioridad se debe a que el computador utiliza mejor el proceso de la línea de comando solve a eight pudiendo utilizar todos los procesadores de una forma mas optima y eficiente lo cual se refleja en los tiempos de ejecución. gráficos de rendimiento para cada caso: Casos float : A.I) image
+
+A.II) image
+
+A.III) image
+
+A.IV) image
+
+A.V) image
+
+A.VI) image
+
+A.Vii image
+
+B.I) image
+
+B.II) image
+
+B.III) image
+
+B.IV) image
+
+B.V) image
+
+Casos double : A.I) image
+
+A.II) image
+
+A.III) image
+
+A.IV) image
+
+A.V)
+
+image
+
+A.VI)
+
+image
+
+A.VII) image
+
+B.I) image
+
+B.II) image
+
+B.III) image
+
+B.IV) image
+
+B.V)
+
+2)Comparación promedio de 10 corridas para cada caso ( float-double)
+
+I)Comparación promedio 10 corridas para float
+
+II)Comparación promedio 10 corridas para double
+
+image
+
+Comparación de rendimientos promedio de desempeño de solve v/s eigh (para caso float y double)
+
+I)Desempeño solve v/s eigh (float) image
+
+I)Desempeño solve v/s eigh (double)
+
+image
+
+
 #Entrega 3
 
 Memeoria y eficiencia cada caso :
