@@ -1,72 +1,149 @@
 Entrega 4
 
-Comentario: La variabilidad del tiempo es bastante similar entre procedimientos con el mismo método de ejecución, el cual cambia considerablemente cuando pasamos de ocupar solve a o utilizar eight debido a que con este ultimo al momento de utilizar una matriz grande (N=10000) toma un tiempo considerablemente mayor al que se logra resolviéndolo con la línea de comando SOlVE. Con respecto al algoritmo que gana en promedio se puede decir que es mucho más eficiente la línea de comando SOLVE debido a que esta para el máximo tamaño que se utilizo de matriz (N=10000) toma un tiempo promedio de ejecución que ronda entre los 20 a 30 segundos, lo cual se aleja mucho de los tiempos dados para este mismo tamaño de matriz para la línea de comando eight ya que esta misma para los mismos tamaños de matriz utilizados esta rondando en un tiempo promedio entre 105 y 120 segundos. El tiempo que se demora la ejecución se puede apreciar que dependerá del tamaño de la matriz que se quiera ejecutar , entre mas grande la matriz mas tiempo se demorara y como se puede apreciar en los gráficos esta razón no es lineal y después del tamaño de matriz 5000 cualquier proceso independiente del método que se utilice se demorara mucho mas que si se calcularan matrices de tamaño 500 hacia abajo Con respecto a esta superioridad se debe a que el computador utiliza mejor el proceso de la línea de comando solve a eight pudiendo utilizar todos los procesadores de una forma mas optima y eficiente lo cual se refleja en los tiempos de ejecución. gráficos de rendimiento para cada caso: Casos float : A.I) image
+Comentario: La variabilidad del tiempo es bastante similar entre procedimientos con el mismo método de ejecución, el cual cambia considerablemente cuando pasamos de ocupar solve a o utilizar eight debido a que con este ultimo al momento de utilizar una matriz grande (N=10000) toma un tiempo considerablemente mayor al que se logra resolviéndolo con la línea de comando SOlVE.
 
-A.II) image
+Con respecto al algoritmo que gana en promedio se puede decir que es mucho más eficiente la línea de comando SOLVE debido a que esta para el máximo tamaño que se utilizo de matriz (N=10000) toma un tiempo promedio de ejecución que ronda entre los 20 a 30 segundos, lo cual se aleja mucho de los tiempos dados para este mismo tamaño de matriz para la línea de comando eight ya que esta misma para los mismos tamaños de matriz utilizados esta rondando en un tiempo promedio entre 105 y 120 segundos.
 
-A.III) image
+El tiempo que se demora la ejecución se puede apreciar que dependerá del tamaño de la matriz que se quiera ejecutar , entre mas grande la matriz mas tiempo se demorara y como se puede apreciar en los gráficos esta razón no es lineal y después del tamaño de matriz 5000 cualquier proceso independiente del método que se utilice se demorara mucho mas que si se calcularan matrices de tamaño 500 hacia abajo.
 
-A.IV) image
+Con respecto a esta superioridad se debe a que el computador utiliza mejor el proceso de la línea de comando solve a eight pudiendo utilizar todos los procesadores de una forma mas optima y eficiente lo cual se refleja en los tiempos de ejecución. gráficos de rendimiento para cada caso: Casos float : A.I) image
 
-A.V) image
+gráficos de rendimiento para cada caso:
+Casos float :
 
-A.VI) image
 
-A.Vii image
+A.I)
+![image](https://user-images.githubusercontent.com/62267612/130304763-c6c3f564-d955-47be-bce7-b40db0cd21f8.png)
 
-B.I) image
+  
+A.II) 
+![image](https://user-images.githubusercontent.com/62267612/130304764-207b99f7-cbf9-41c5-af0f-ceb97bfa1a8d.png)
 
-B.II) image
+ 
+A.III)
+![image](https://user-images.githubusercontent.com/62267612/130304781-d8be126f-54af-42b8-b5af-175fc395a647.png)
 
-B.III) image
+ 
 
-B.IV) image
+A.IV)
+![image](https://user-images.githubusercontent.com/62267612/130304787-4516da3e-4709-4b10-9156-1c0fe1a4f1f5.png)
 
-B.V) image
-
-Casos double : A.I) image
-
-A.II) image
-
-A.III) image
-
-A.IV) image
-
+ 
 A.V)
+ 
+![image](https://user-images.githubusercontent.com/62267612/130304790-5bdfdba3-5a6d-4255-8ccd-3898d0ba9339.png)
 
-image
 
 A.VI)
+![image](https://user-images.githubusercontent.com/62267612/130304794-0e82ae5b-3e8e-465b-be79-06ad46d6e30e.png)
 
-image
+  
+A.Vii
+![image](https://user-images.githubusercontent.com/62267612/130304797-44e6edea-ff65-4c9e-8502-d2f07eb553b1.png)
 
-A.VII) image
+  
+B.I) 
+ ![image](https://user-images.githubusercontent.com/62267612/130304801-b1460c08-ef70-4a1a-a16f-8e5fd1d703ae.png)
 
-B.I) image
 
-B.II) image
+B.II)
+ ![image](https://user-images.githubusercontent.com/62267612/130304802-c0fcdb73-0eb6-4604-8bed-360d911e918d.png)
 
-B.III) image
 
-B.IV) image
+B.III)
+![image](https://user-images.githubusercontent.com/62267612/130304807-6856398a-a071-4898-8e42-a03548c33ef0.png)
+
+ 
+B.IV)
+![image](https://user-images.githubusercontent.com/62267612/130304812-d936b8a0-eac1-4dbe-a380-76b450dae6d3.png)
+
+ 
+B.V)
+![image](https://user-images.githubusercontent.com/62267612/130304816-45b21225-f31c-4113-aafe-dcfbdbc7788c.png)
+
+
+Casos double :
+A.I)
+
+![image](https://user-images.githubusercontent.com/62267612/130304821-14a07d80-28d1-49d2-9ab6-2833b0812361.png)
+
+ 
+A.II)
+ ![image](https://user-images.githubusercontent.com/62267612/130304826-f9bc0ebe-dd75-4062-a9da-720c75b8ee2b.png)
+
+
+A.III)
+![image](https://user-images.githubusercontent.com/62267612/130304829-e28b120f-1b73-4e05-b397-50464404c8f8.png)
+
+ 
+A.IV)
+
+![image](https://user-images.githubusercontent.com/62267612/130304836-c56ba428-4e90-4b53-bd60-2eb8539fd603.png)
+
+  
+A.V)
+ 
+![image](https://user-images.githubusercontent.com/62267612/130304841-411960ff-54cf-48ad-950c-3faed0e86753.png)
+
+
+
+A.VI)
+![image](https://user-images.githubusercontent.com/62267612/130304844-2ff67f9d-5b61-4a07-811f-b36b506f3e15.png)
+
+ 
+
+A.VII)
+  ![image](https://user-images.githubusercontent.com/62267612/130304848-c7db6175-839f-4b0f-bc60-30bf6f83b646.png)
+
+B.I)
+ ![image](https://user-images.githubusercontent.com/62267612/130304852-f7cf64de-7028-4a33-b431-30813a806ba5.png)
+
+B.II)
+![image](https://user-images.githubusercontent.com/62267612/130304858-928f91ef-3e3c-477a-874b-9b14ce5bee01.png)
+
+ 
+B.III)
+![image](https://user-images.githubusercontent.com/62267612/130304864-d8fdf74d-f86e-492d-90f4-64f4c3e7f25d.png)
+
+ 
+B.IV)
+![image](https://user-images.githubusercontent.com/62267612/130304866-dcdaa54b-4019-4693-b7ac-c0e45b87c141.png)
+
+  
 
 B.V)
+  
+![image](https://user-images.githubusercontent.com/62267612/130304869-1635fee1-bced-41ce-885c-dc5b3bf5bf14.png)
+
 
 2)Comparación promedio de 10 corridas para cada caso ( float-double)
 
 I)Comparación promedio 10 corridas para float
+![image](https://user-images.githubusercontent.com/62267612/130304874-7f28bdd0-dd81-46ab-ac15-dade63e5e612.png)
+
+
+ 
+
 
 II)Comparación promedio 10 corridas para double
 
-image
+![image](https://user-images.githubusercontent.com/62267612/130304878-4dd8ce60-37d2-46c2-9886-b2cb334a89dd.png)
 
+ 
+
+
+3)
 Comparación de rendimientos promedio de desempeño de solve v/s eigh (para caso float y double)
 
-I)Desempeño solve v/s eigh (float) image
+I)Desempeño solve v/s eigh (float)
+![image](https://user-images.githubusercontent.com/62267612/130304879-db673be8-9356-4257-a208-05b96ca3ea57.png)
 
-I)Desempeño solve v/s eigh (double)
+ 
 
-image
+
+II)Desempeño solve v/s eigh (double)
+ 
+![image](https://user-images.githubusercontent.com/62267612/130304880-5cb880bb-d0c2-4bb6-aca3-a5d12e7fff59.png)
 
 
 #Entrega 3
