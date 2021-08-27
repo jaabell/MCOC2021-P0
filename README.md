@@ -19,14 +19,21 @@ El cual fue el escogido debido a que por un motivo quizas de actualizaciones de 
 A continuación se mostraran los graficos obtenidos para el rendimiento de MATMUL tanto para matrices dispersas como llenas 
 
 Matriz llena:
+
+
 ![image](https://user-images.githubusercontent.com/62267612/131164424-3266ed58-97f9-4dbd-8ebc-a5b2b8747f21.png)
 
 Matriz dispersa:
+
+
 ![image](https://user-images.githubusercontent.com/62267612/131164461-4700d7fc-eb4a-4b42-b4e8-6ce9dd92fb5a.png)
 
 
 A raiz de los resultados obtenidos se puede apreciar que con las matrices dispersas ahorramos mucha eficiencia debido a que esta no considera los valores de 0 lo cual hace que el tiempo de resolucion de la multiplicacion sea mucho mas optimizada y por ende mucho mas rapida a diferencia de lo que ocurre con la matriz llena la cual considera los valores de ceros y lo cual hace que el tiempo de resolución del problema sea mucho pero mucho mas alto.
 Debido a lo mencionado anteriormente podemos ver que por un lado el tiempo con las matrices dispersas es considerablemente mas bajo por lo cual nos da margen para poder aumentar el Tamaño del N de las matrices que creamos lo cual fue logrado pero solamente hasta cierto punto debido a que despues de un cierto N (N=30.000 en mi caso) el problema no es con el tiempo de ejecucion sino con la memoria que llega al limite en mi computador debido a que se esta trabajando con matrices demasiado elevadas, a continuacion adjuntare una foto del error por memoria y la capacidad a la cual llega el computador.
+
+![image](https://user-images.githubusercontent.com/62267612/131166339-1788ac36-f97d-463f-a7bd-05e15645e778.png)
+
 
 
 
