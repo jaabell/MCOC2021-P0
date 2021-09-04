@@ -1,3 +1,76 @@
+Entrega 6 "Matrices dispersas y complejidad computacional"
+
+El codigo de ensamblaje que se utilizo para lograr la matriz laplaciana fue el siguiente:
+
+
+def laplaciana(N,dtype):
+    A = zeros((N,N),dtype=dtype)
+    
+    for i in range(N):
+        A[i,i]=2
+      
+        for j in range(max(0,i-2),i):
+            if abs(i-j)==1:
+                   A[i,i]=-1
+                   A[j,i]=-1               
+    return A
+
+A continuación se mostraran los graficos obtenidos para el rendimiento de solve tanto para matrices dispersas como llenas
+
+Matriz dispersa
+
+![image](https://user-images.githubusercontent.com/62267612/132080275-a4c12850-5e62-4e55-9658-30309c62f98b.png)
+
+
+Matriz llena
+
+![image](https://user-images.githubusercontent.com/62267612/132080291-73fca2ab-88a8-441b-ad11-fa239adf139c.png)
+
+
+A continuación se mostraran los graficos obtenidos para el rendimiento de inv tanto para matrices dispersas como llenas
+
+Matriz dispersa
+
+![image](https://user-images.githubusercontent.com/62267612/132080321-91d26e43-c0e3-4c24-a2a3-e862bbb9007b.png)
+
+
+Matriz llena
+
+![image](https://user-images.githubusercontent.com/62267612/132080342-bdd27114-1161-4620-bb4c-4af8cec3653e.png)
+
+
+
+
+
+Para el caso de solve se puede apreciar que para matrices dispersas el rendimiento de estas es bastante mejor que la de matrices llenas debido a que se demora menos tiempo en llegar a la solucion y lo mas importante es que del metedo de matrices dispersas es posible llegar a un tamaño mucho mayor del tamaño N de la matriz logrando un rendimiento de un N 10000 veces mayor del cual llega las matriz llena.
+
+Para el caso de la funcion Inv se puede apreciar que entre las matrices llenas y dispersas no existe mayor diferencia mas que (+- 1 seg ).Lo que si se puede apreciar es que con esta funcion ambas formas llegan a un tamaño N mas reducido que las demas funciones , llegando a un N max de tamaño 150000
+
+las asintotas que mas se asemejan a cada una de las matrices se presenta a continuación:
+
+Matriz dispersa
+
+Solve : O(N) para ensamblado y ejecución
+
+inv :O(N) para ensamblado y O(N^2) ejecución
+
+Matriz llena:
+
+Solve :O(N) para ensamblado y ejecución
+
+inv:O(N) para ensamblado y ejecución
+
+El tamaño de las matricez afecta al comportamiento debido a que ocupa memoria del computador , entre mas grande sea N mas recursos necesitara el computador debido a que necesita hacer cada vez mas procesos al mismo tiempo hasta que llega un punto en que el computador se queda sin memoria para poder ejecutar y se estanca todo.
+
+Las corridas por lo menos en mi computador todas fueron en el proyecto 0 muy estables (nunca diferian en mas de 2 segundos) , esto tambien se debe quizas a que siempre que corria el programa me fijaba de que el computador no hiciera nada mas que eso cerrando cualquier navegador o aplicacion que pudiera estorbar en el proceso.
+
+
+
+
+
+
+
+
 Entrega 5:
 
 El codigo de ensamblaje que se utilizo para lograr la matriz laplaciana fue el siguiente:
